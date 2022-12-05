@@ -72,3 +72,9 @@ sudo /home/kopy/downloads/NVIDIA-Linux-x86_64-515.76.run
 ```sh
 sudo reboot now
 ```
+
+# BONUS
+### **add nvidia panel to** .bashrc
+```sh
+alias gpu="watch -n0.1 nvidia-smi"
+```
